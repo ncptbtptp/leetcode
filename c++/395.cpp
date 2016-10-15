@@ -4,6 +4,9 @@
  * Tip: DON'T define a global variable. It may fail because a global variable
  * may carry states through different test cases on leetcode!
  * And it's often a bad design in practice.
+ *
+ * Time: O(n^2)
+ * Space: O(1)
  **********************************************************************************/
 
 #include <iostream>
