@@ -1,12 +1,15 @@
 /**********************************************************************************
  * https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
  *
+ * Auther: Eric Z
+ *
  * Tip: DON'T define a global variable. It may fail because a global variable
  * may carry states through different test cases on leetcode!
  * And it's often a bad design in practice.
  *
  * Time: O(n^2)
  * Space: O(1)
+ * Beat: 44%
  **********************************************************************************/
 
 #include <iostream>
