@@ -1,20 +1,16 @@
-/**
- * https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
- */
-
-#include <iostream>
-#include <vector>
-#include <array>
-#include <cassert>
-
-using namespace std;
-
 /**********************************************************************************
+ * https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
  *
  * Tip: DON'T define a global variable. It may fail because a global variable
  * may carry states through different test cases on leetcode!
  * And it's often a bad design in practice.
  **********************************************************************************/
+
+#include <iostream>
+#include <vector>
+#include <cassert>
+
+using namespace std;
 
 class Solution {
 public:
