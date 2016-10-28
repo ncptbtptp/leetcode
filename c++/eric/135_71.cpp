@@ -1,13 +1,13 @@
 /**********************************************************************************
- * https://leetcode.com/problems/...
+ * https://leetcode.com/problems/candy
  *
- * Auther:
+ * Auther: Eric Z
  *
  * Tip:
  *
- * Time: O(?)
- * Space: O(?)
- * Beat: ?%
+ * Time: O(n)
+ * Space: O(1)
+ * Beat: 71.49%
  **********************************************************************************/
 
 #include <iostream>
@@ -25,6 +25,7 @@ public:
         // start from 2nd child
         for (int i = 1; i < ratings.size(); ++i) {
             if (ratings[i] == ratings[i - 1]) {
+                cur = 1;
                 total += cur;
             }
             else if (ratings[i] > ratings[i - 1]) {
