@@ -1,7 +1,7 @@
 /**********************************************************************************
  * https://leetcode.com/problems/...
  *
- * Auther:
+ * Auther: Eric Z
  *
  * Tip:
  *
@@ -62,10 +62,59 @@ private:
     vector<int> m_colors;
 };
 
-TEST(CYCLE, One)
+// Many thanks to C++11 uniform initialization form!!
+TEST(Normal, Single)
 {
     Solution so;
-    ASSERT_FALSE(so.canFinish(2, {make_pair(0, 1), make_pair(1, 0)}));
+    ASSERT_TRUE(so.canFinish(1, {}));
+}
+
+TEST(Normal, Y)
+{
+    Solution so;
+    ASSERT_TRUE(so.canFinish(4, { {0, 1}, {2, 1}, {1, 3} }));
+}
+
+TEST(Normal, OneToTwo)
+{
+    Solution so;
+    ASSERT_TRUE(so.canFinish(3, { {0, 2}, {1, 2} }));
+}
+
+TEST(Normal, Diamond)
+{
+    Solution so;
+    ASSERT_TRUE(so.canFinish(4, { {0, 1}, {0, 2}, {1, 3}, {2, 3} }));
+}
+
+TEST(Cycle, Self)
+{
+    Solution so;
+    ASSERT_FALSE(so.canFinish(1, { {0, 0} }));
+}
+
+TEST(Cycle, TwoNodes)
+{
+    Solution so;
+    ASSERT_FALSE(so.canFinish(2, { {0, 1}, {1, 0} }));
+}
+
+TEST(Cycle, MoreNodes)
+{
+    Solution so;
+    ASSERT_FALSE(so.canFinish(4, { {0, 1}, {1, 2}, {2, 3}, {3, 0} }));
+}
+
+TEST(Forest, OneCycle)
+{
+    Solution so;
+    ASSERT_FALSE(so.canFinish(4, { {0, 1}, {2, 3}, {3, 2} }));
+}
+
+TEST(Forest, AllGood)
+{
+    Solution so;
+    ASSERT_TRUE(so.canFinish(4, { {0, 1}, {2, 3} }));
 }
 
 int main(int argc, char *argv[])
