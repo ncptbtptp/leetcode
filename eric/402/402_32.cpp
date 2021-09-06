@@ -8,7 +8,7 @@
  * Time: O(n)
  * Space: O(n)
  **********************************************************************************/
-#include <gtest/gtest.h>
+//#include <gtest/gtest.h>
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -74,26 +74,26 @@ public:
     }
 };
 
-TEST(Normal, Increase)
-{
-    Solution so;
-    ASSERT_EQ(Solution().removeKdigits("1432219", 3), "1219");
-}
-
-TEST(Normal, LeadingZero)
-{
-    Solution so;
-    ASSERT_EQ(Solution().removeKdigits("10200", 1), "200");
-}
-
-TEST(Normal, RemoveAll)
-{
-    Solution so;
-    ASSERT_EQ(Solution().removeKdigits("10", 2), "0");
-}
-
-int main(int argc, char *argv[])
-{
-    testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
-}
+//TEST(Normal, Increase)
+//{
+//    Solution so;
+//    ASSERT_EQ(Solution().removeKdigits("1432219", 3), "1219");
+//}
+//
+//TEST(Normal, LeadingZero)
+//{
+//    Solution so;
+//    ASSERT_EQ(Solution().removeKdigits("10200", 1), "200");
+//}
+//
+//TEST(Normal, RemoveAll)
+//{
+//    Solution so;
+//    ASSERT_EQ(Solution().removeKdigits("10", 2), "0");
+//}
+//
+//int main(int argc, char *argv[])
+//{
+//    testing::InitGoogleTest(&argc, argv);
+//    return RUN_ALL_TESTS();
+//}

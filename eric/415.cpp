@@ -1,7 +1,7 @@
 /**********************************************************************************
  * https://leetcode.com/problems/add-strings
  *
- * Auther: Eric Z
+ * Auther: ncptbtptp
  *
  * Tip:
  *
@@ -73,11 +73,11 @@ public:
     }
 };
 
-int main()
-{
-    Solution so;
-    string num1{"123"}, num2{"0"};
-    cout << so.addStrings(num1, num2) << endl;
-
-    return 0;
-}
+//int main()
+//{
+//    Solution so;
+//    string num1{"123"}, num2{"0"};
+//    cout << so.addStrings(num1, num2) << endl;
+//
+//    return 0;
+//}

@@ -1,7 +1,7 @@
 /**********************************************************************************
  * https://leetcode.com/problems/split-array-largest-sum
  *
- * Auther: Eric Z
+ * Auther: ncptbtptp
  *
  * Tip:
  *
@@ -74,12 +74,12 @@ public:
     }
 };
 
-int main()
-{
-    vector<int> nums{1, 2147483647};
-    int m = 2;
-    Solution so;
-    cout << so.splitArray(nums, m) << endl;
-
-    return 0;
-}
+//int main()
+//{
+//    vector<int> nums{1, 2147483647};
+//    int m = 2;
+//    Solution so;
+//    cout << so.splitArray(nums, m) << endl;
+//
+//    return 0;
+//}

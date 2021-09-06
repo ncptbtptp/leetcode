@@ -1,6 +1,6 @@
 /**********************************************************************************
  * https://leetcode.com/problems/partition-equal-subset-sum/
- * Auther: Eric Z
+ * Auther: ncptbtptp
  *
  * Tip:
  *
@@ -52,11 +52,11 @@ bool canPartition(vector<int>& nums) {
 }
 */
 
-int main()
-{
-    Solution so;
-    vector<int> nums{1, 2};
-    cout << so.canPartition(nums) << endl;
-
-    return 0;
-}
+//int main()
+//{
+//    Solution so;
+//    vector<int> nums{1, 2};
+//    cout << so.canPartition(nums) << endl;
+//
+//    return 0;
+//}

@@ -56,11 +56,11 @@ public:
    }
 };
 
-int main()
-{
-   vector<int> heights = { 2,1,5,6,2,3 };
-   Solution so;
-   cout << so.largestRectangleArea(heights) << endl;
-   getchar();
-   return 0;
-}
+//int main()
+//{
+//   vector<int> heights = { 2,1,5,6,2,3 };
+//   Solution so;
+//   cout << so.largestRectangleArea(heights) << endl;
+//   getchar();
+//   return 0;
+//}

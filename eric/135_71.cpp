@@ -1,7 +1,7 @@
 /**********************************************************************************
  * https://leetcode.com/problems/candy
  *
- * Auther: Eric Z
+ * Auther: ncptbtptp
  *
  * Tip:
  *
@@ -59,11 +59,11 @@ private:
 
 
 
-int main() {
-    Solution so;
-    vector<int> ratings = {0};
-    cout << so.candy(ratings) << endl;
-
-    return 0;
-}
+//int main() {
+//    Solution so;
+//    vector<int> ratings = {0};
+//    cout << so.candy(ratings) << endl;
+//
+//    return 0;
+//}
 

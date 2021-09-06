@@ -76,13 +76,13 @@ public:
     }
 };
 
-int main()
-{
-    vector<int> nums = {4,5,5,6};
-    Solution so;
-    so.wiggleSort(nums);
-    for_each(nums.begin(), nums.end(), [](int i){ cout << i << " "; } );
-    cout << endl;
-
-    return 0;
-}
+//int main()
+//{
+//    vector<int> nums = {4,5,5,6};
+//    Solution so;
+//    so.wiggleSort(nums);
+//    for_each(nums.begin(), nums.end(), [](int i){ cout << i << " "; } );
+//    cout << endl;
+//
+//    return 0;
+//}

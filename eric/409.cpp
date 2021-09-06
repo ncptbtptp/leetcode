@@ -1,7 +1,7 @@
 /**********************************************************************************
  * https://leetcode.com/problems/longest-palindrome/
  *
- * Auther: Eric Z
+ * Auther: ncptbtptp
  *
  * Tip: 
  * 1. space: In ASCII code, capital letter(A~Z) + 6 letters in the middle + letters(a~z) < 64,
@@ -51,13 +51,13 @@ public:
     }
 };
 
-int main()
-{
-    Solution so;
-    string s{"aabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabcabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddcccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddbccccdd"};
-    cout << so.longestPalindrome(s) << endl;
-    return 0;
-}
+//int main()
+//{
+//    Solution so;
+//    string s{"aabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabcabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddcccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddabccccddbccccdd"};
+//    cout << so.longestPalindrome(s) << endl;
+//    return 0;
+//}
 
 
 

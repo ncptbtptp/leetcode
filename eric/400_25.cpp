@@ -38,10 +38,10 @@ public:
    }
 };
 
-int main()
-{
-   Solution so;
-   cout << so.findNthDigit(1000000000) << endl;
-
-   return 0;
-}
+//int main()
+//{
+//   Solution so;
+//   cout << so.findNthDigit(1000000000) << endl;
+//
+//   return 0;
+//}

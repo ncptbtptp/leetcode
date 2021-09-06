@@ -1,7 +1,7 @@
 /**********************************************************************************
  * https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
  *
- * Auther: Eric Z
+ * Auther: ncptbtptp
  *
  * Tip: DON'T define a global variable. It may fail because a global variable
  * may carry states through different test cases on leetcode!
@@ -71,13 +71,13 @@ DONE:
     }
 };
 
-int main()
-{
-    Solution so;
-    string str{"ababbc"};
-    int k = 2;
-    cout << so.longestSubstring(str, k) << endl;
-
-    return 0;
-}
+//int main()
+//{
+//    Solution so;
+//    string str{"ababbc"};
+//    int k = 2;
+//    cout << so.longestSubstring(str, k) << endl;
+//
+//    return 0;
+//}
 

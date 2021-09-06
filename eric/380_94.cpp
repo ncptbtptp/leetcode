@@ -1,7 +1,7 @@
 /**********************************************************************************
  * https://leetcode.com/problems/insert-delete-getrandom-o1/
  *
- * Auther: Eric Z
+ * Auther: ncptbtptp
  *
  * Tip:
  *
@@ -61,28 +61,28 @@ private:
     unordered_map<int, int> m_data;
 };
 
-int main()
-{
-    RandomizedSet randomSet;
-
-    randomSet.insert(1);
-    randomSet.insert(10);
-    randomSet.insert(20);
-    randomSet.insert(30);
-
-    cout << randomSet.getRandom() << endl;
-    cout << randomSet.getRandom() << endl;
-    cout << randomSet.getRandom() << endl;
-    cout << randomSet.getRandom() << endl;
-    cout << randomSet.getRandom() << endl;
-    cout << randomSet.getRandom() << endl;
-    cout << randomSet.getRandom() << endl;
-    cout << randomSet.getRandom() << endl;
-    cout << randomSet.getRandom() << endl;
-    cout << randomSet.getRandom() << endl;
-    cout << randomSet.getRandom() << endl;
-    cout << randomSet.getRandom() << endl;
-    cout << randomSet.getRandom() << endl;
-
-    return 0;
-}
+//int main()
+//{
+//    RandomizedSet randomSet;
+//
+//    randomSet.insert(1);
+//    randomSet.insert(10);
+//    randomSet.insert(20);
+//    randomSet.insert(30);
+//
+//    cout << randomSet.getRandom() << endl;
+//    cout << randomSet.getRandom() << endl;
+//    cout << randomSet.getRandom() << endl;
+//    cout << randomSet.getRandom() << endl;
+//    cout << randomSet.getRandom() << endl;
+//    cout << randomSet.getRandom() << endl;
+//    cout << randomSet.getRandom() << endl;
+//    cout << randomSet.getRandom() << endl;
+//    cout << randomSet.getRandom() << endl;
+//    cout << randomSet.getRandom() << endl;
+//    cout << randomSet.getRandom() << endl;
+//    cout << randomSet.getRandom() << endl;
+//    cout << randomSet.getRandom() << endl;
+//
+//    return 0;
+//}

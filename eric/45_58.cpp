@@ -1,7 +1,7 @@
 /**********************************************************************************
  * https://leetcode.com/problems/jump-game-ii
  *
- * Auther: Eric Z
+ * Auther: ncptbtptp
  *
  * Tip:
  * By always jump the next stone which can jump "furtherest", you're guaranteed
@@ -54,11 +54,11 @@ public:
     }
 };
 
-int main()
-{
-    Solution so;
-    vector<int> v{2, 3, 1, 1, 4};
-    cout << so.jump(v) << endl;
-
-    return 0;
-}
+//int main()
+//{
+//    Solution so;
+//    vector<int> v{2, 3, 1, 1, 4};
+//    cout << so.jump(v) << endl;
+//
+//    return 0;
+//}

@@ -1,7 +1,7 @@
 /**********************************************************************************
  * https://leetcode.com/problems/evaluate-disivion
  *
- * Auther: Eric Z
+ * Auther: ncptbtptp
  *
  * Tip:
  *
@@ -76,15 +76,15 @@ private:
     unordered_map<string, pair<int, double>> m_value;
 };
 
-int main()
-{
-    vector<pair<string, string>> equations = {{"a","b"}, {"b","a"}, {"a","b"}, {"c","d"}};
-    vector<double> values = {1.0,0.5,1.0,3,0};
-    vector<pair<string, string>> queries = {{"a","b"}, {"b","a"}, {"c","d"}, {"a","c"}, {"d","c"}};
-    vector<double> res;
-    Solution so;
-    res = so.calcEquation(equations, values, queries);
-    for_each(res.cbegin(), res.cend(), [](double d) { cout << d << endl; });
-
-    return 0;
-}
+//int main()
+//{
+//    vector<pair<string, string>> equations = {{"a","b"}, {"b","a"}, {"a","b"}, {"c","d"}};
+//    vector<double> values = {1.0,0.5,1.0,3,0};
+//    vector<pair<string, string>> queries = {{"a","b"}, {"b","a"}, {"c","d"}, {"a","c"}, {"d","c"}};
+//    vector<double> res;
+//    Solution so;
+//    res = so.calcEquation(equations, values, queries);
+//    for_each(res.cbegin(), res.cend(), [](double d) { cout << d << endl; });
+//
+//    return 0;
+//}

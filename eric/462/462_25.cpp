@@ -8,12 +8,13 @@
  * Time: O(n)
  * Space: O(1)
  **********************************************************************************/
-#include <gtest/gtest.h>
+//#include <gtest/gtest.h>
 #include <iostream>
 #include <string>
 #include <algorithm>
 #include <iterator>
 #include <stack>
+#include <vector>
 using namespace std;
 
 class Solution {
@@ -35,43 +36,43 @@ public:
     }
 };
 
-TEST(ZeroMove, NoElement)
-{
-    Solution so;
-    vector<int> nums{};
-    ASSERT_EQ(Solution().minMoves2(nums), 0);
-}
-
-TEST(ZeroMove, SingleElement)
-{
-    Solution so;
-    vector<int> nums{1};
-    ASSERT_EQ(Solution().minMoves2(nums), 0);
-}
-
-TEST(OneMove, TwoElements)
-{
-    Solution so;
-    vector<int> nums{1,2};
-    ASSERT_EQ(Solution().minMoves2(nums), 1);
-}
-
-TEST(TwoMove, ThreeElements)
-{
-    Solution so;
-    vector<int> nums{1,2,3};
-    ASSERT_EQ(Solution().minMoves2(nums), 2);
-}
-
-TEST(FiveMove, SevenElements)
-{
-    Solution so;
-    vector<int> nums{1,1,1,2,2,3,3};
-    ASSERT_EQ(Solution().minMoves2(nums), 5);
-}
-
-int main(int argc, char *argv[])
-{
-    testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
-}
+//TEST(ZeroMove, NoElement)
+//{
+//    Solution so;
+//    vector<int> nums{};
+//    ASSERT_EQ(Solution().minMoves2(nums), 0);
+//}
+//
+//TEST(ZeroMove, SingleElement)
+//{
+//    Solution so;
+//    vector<int> nums{1};
+//    ASSERT_EQ(Solution().minMoves2(nums), 0);
+//}
+//
+//TEST(OneMove, TwoElements)
+//{
+//    Solution so;
+//    vector<int> nums{1,2};
+//    ASSERT_EQ(Solution().minMoves2(nums), 1);
+//}
+//
+//TEST(TwoMove, ThreeElements)
+//{
+//    Solution so;
+//    vector<int> nums{1,2,3};
+//    ASSERT_EQ(Solution().minMoves2(nums), 2);
+//}
+//
+//TEST(FiveMove, SevenElements)
+//{
+//    Solution so;
+//    vector<int> nums{1,1,1,2,2,3,3};
+//    ASSERT_EQ(Solution().minMoves2(nums), 5);
+//}
+//
+//int main(int argc, char *argv[])
+//{
+//    testing::InitGoogleTest(&argc, argv);
+//    return RUN_ALL_TESTS();
+//}

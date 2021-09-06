@@ -1,7 +1,7 @@
 /**********************************************************************************
  * https://leetcode.com/problems/...
  *
- * Auther: Eric Z
+ * Auther: ncptbtptp
  *
  * Tip:
  *
@@ -14,7 +14,7 @@
 #include <vector>
 #include <tuple>
 #include <unordered_map>
-#include <gtest/gtest.h>
+//#include <gtest/gtest.h>
 using namespace std;
 
 class Solution {
@@ -62,63 +62,63 @@ private:
     vector<int> m_colors;
 };
 
-// Many thanks to C++11 uniform initialization form!!
-TEST(Normal, Single)
-{
-    Solution so;
-    ASSERT_TRUE(so.canFinish(1, {}));
-}
-
-TEST(Normal, Y)
-{
-    Solution so;
-    ASSERT_TRUE(so.canFinish(4, { {0, 1}, {2, 1}, {1, 3} }));
-}
-
-TEST(Normal, OneToTwo)
-{
-    Solution so;
-    ASSERT_TRUE(so.canFinish(3, { {0, 2}, {1, 2} }));
-}
-
-TEST(Normal, Diamond)
-{
-    Solution so;
-    ASSERT_TRUE(so.canFinish(4, { {0, 1}, {0, 2}, {1, 3}, {2, 3} }));
-}
-
-TEST(Cycle, Self)
-{
-    Solution so;
-    ASSERT_FALSE(so.canFinish(1, { {0, 0} }));
-}
-
-TEST(Cycle, TwoNodes)
-{
-    Solution so;
-    ASSERT_FALSE(so.canFinish(2, { {0, 1}, {1, 0} }));
-}
-
-TEST(Cycle, MoreNodes)
-{
-    Solution so;
-    ASSERT_FALSE(so.canFinish(4, { {0, 1}, {1, 2}, {2, 3}, {3, 0} }));
-}
-
-TEST(Forest, OneCycle)
-{
-    Solution so;
-    ASSERT_FALSE(so.canFinish(4, { {0, 1}, {2, 3}, {3, 2} }));
-}
-
-TEST(Forest, AllGood)
-{
-    Solution so;
-    ASSERT_TRUE(so.canFinish(4, { {0, 1}, {2, 3} }));
-}
-
-int main(int argc, char *argv[])
-{
-    testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
-}
+//// Many thanks to C++11 uniform initialization form!!
+//TEST(Normal, Single)
+//{
+//    Solution so;
+//    ASSERT_TRUE(so.canFinish(1, {}));
+//}
+//
+//TEST(Normal, Y)
+//{
+//    Solution so;
+//    ASSERT_TRUE(so.canFinish(4, { {0, 1}, {2, 1}, {1, 3} }));
+//}
+//
+//TEST(Normal, OneToTwo)
+//{
+//    Solution so;
+//    ASSERT_TRUE(so.canFinish(3, { {0, 2}, {1, 2} }));
+//}
+//
+//TEST(Normal, Diamond)
+//{
+//    Solution so;
+//    ASSERT_TRUE(so.canFinish(4, { {0, 1}, {0, 2}, {1, 3}, {2, 3} }));
+//}
+//
+//TEST(Cycle, Self)
+//{
+//    Solution so;
+//    ASSERT_FALSE(so.canFinish(1, { {0, 0} }));
+//}
+//
+//TEST(Cycle, TwoNodes)
+//{
+//    Solution so;
+//    ASSERT_FALSE(so.canFinish(2, { {0, 1}, {1, 0} }));
+//}
+//
+//TEST(Cycle, MoreNodes)
+//{
+//    Solution so;
+//    ASSERT_FALSE(so.canFinish(4, { {0, 1}, {1, 2}, {2, 3}, {3, 0} }));
+//}
+//
+//TEST(Forest, OneCycle)
+//{
+//    Solution so;
+//    ASSERT_FALSE(so.canFinish(4, { {0, 1}, {2, 3}, {3, 2} }));
+//}
+//
+//TEST(Forest, AllGood)
+//{
+//    Solution so;
+//    ASSERT_TRUE(so.canFinish(4, { {0, 1}, {2, 3} }));
+//}
+//
+//int main(int argc, char *argv[])
+//{
+//    testing::InitGoogleTest(&argc, argv);
+//    return RUN_ALL_TESTS();
+//}
