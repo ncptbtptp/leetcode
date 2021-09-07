@@ -24,9 +24,6 @@
     <ClCompile Include="..\..\324_wiggle_sort_ii\ans2_81.cpp">
       <Filter>Source Files\324</Filter>
     </ClCompile>
-    <ClCompile Include="547.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\45_58.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -82,6 +79,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\462\462_25.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\547.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\684.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

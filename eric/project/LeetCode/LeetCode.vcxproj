@@ -158,9 +158,10 @@
     <ClCompile Include="..\..\417.cpp" />
     <ClCompile Include="..\..\45_58.cpp" />
     <ClCompile Include="..\..\462\462_25.cpp" />
+    <ClCompile Include="..\..\547.cpp" />
     <ClCompile Include="..\..\55_84.cpp" />
+    <ClCompile Include="..\..\684.cpp" />
     <ClCompile Include="..\..\84_12.cpp" />
-    <ClCompile Include="547.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
