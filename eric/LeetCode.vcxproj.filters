@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\310">
+      <UniqueIdentifier>{bbf0d112-2a4c-49ab-9e77-4435136017f5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\45_58.cpp">
@@ -66,5 +69,13 @@
     <ClCompile Include="source\684.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="source\310\310.cpp">
+      <Filter>Source Files\310</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\310\310.h">
+      <Filter>Source Files\310</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

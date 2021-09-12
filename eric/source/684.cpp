@@ -115,12 +115,12 @@ public:
     }
 };
 
-int main()
-{
-    Solution so;
-    vector<vector<int>> edges = { {1,2}, {2,3}, {3,4}, {1,4}, {1,5} };
-    vector<int> result = so.findRedundantConnection(edges);
-    for (int i : result) cout << i << " ";
-    cout << endl;
-    return 0;
-}
+//int main()
+//{
+//    Solution so;
+//    vector<vector<int>> edges = { {1,2}, {2,3}, {3,4}, {1,4}, {1,5} };
+//    vector<int> result = so.findRedundantConnection(edges);
+//    for (int i : result) cout << i << " ";
+//    cout << endl;
+//    return 0;
+//}
