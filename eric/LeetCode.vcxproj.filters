@@ -13,78 +13,57 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\324">
-      <UniqueIdentifier>{a14bbe4f-54dd-4856-9c77-e19b138f9b2b}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\324_wiggle_sort_ii\ans1_58.cpp">
-      <Filter>Source Files\324</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\324_wiggle_sort_ii\ans2_81.cpp">
-      <Filter>Source Files\324</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\45_58.cpp">
+    <ClCompile Include="source\45_58.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\55_84.cpp">
+    <ClCompile Include="source\55_84.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\84_12.cpp">
+    <ClCompile Include="source\84_12.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\135_71.cpp">
+    <ClCompile Include="source\135_71.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\207\207_62.cpp">
+    <ClCompile Include="source\332_67.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\210\210_56.cpp">
+    <ClCompile Include="source\380_94.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\332_67.cpp">
+    <ClCompile Include="source\395_44.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\380_94.cpp">
+    <ClCompile Include="source\399_55.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\395_44.cpp">
+    <ClCompile Include="source\400_25.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\399_55.cpp">
+    <ClCompile Include="source\403_14.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\400_25.cpp">
+    <ClCompile Include="source\409.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\402\402_32.cpp">
+    <ClCompile Include="source\410.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\403_14.cpp">
+    <ClCompile Include="source\415.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\409.cpp">
+    <ClCompile Include="source\416.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\410.cpp">
+    <ClCompile Include="source\417.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\415.cpp">
+    <ClCompile Include="source\547.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\416.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\417.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\462\462_25.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\547.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\684.cpp">
+    <ClCompile Include="source\684.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
