@@ -2,6 +2,8 @@
 #include <vector>
 #include <queue>
 
+#include "310.h"
+
 using namespace std;
 
 class Solution {
@@ -103,8 +105,8 @@ public:
     vector<int> m_parents;
 };
 
-vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges)
-{
-    Solution so;
-    return so.findMinHeightTrees(n, edges);
-}
+//vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges)
+//{
+//    Solution so;
+//    return so.findMinHeightTrees(n, edges);
+//}

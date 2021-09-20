@@ -69,7 +69,10 @@
     <ClCompile Include="source\684.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\310\310.cpp">
+    <ClCompile Include="source\310\310_v1.cpp">
+      <Filter>Source Files\310</Filter>
+    </ClCompile>
+    <ClCompile Include="source\310\310_v2.cpp">
       <Filter>Source Files\310</Filter>
     </ClCompile>
   </ItemGroup>
