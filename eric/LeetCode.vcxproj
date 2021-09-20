@@ -20,9 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\135_71.cpp" />
+    <ClCompile Include="source\278.cpp" />
     <ClCompile Include="source\310\310_v1.cpp" />
     <ClCompile Include="source\310\310_v2.cpp" />
     <ClCompile Include="source\332_67.cpp" />
+    <ClCompile Include="source\35.cpp" />
     <ClCompile Include="source\380_94.cpp" />
     <ClCompile Include="source\395_44.cpp" />
     <ClCompile Include="source\399_55.cpp" />
@@ -37,6 +39,7 @@
     <ClCompile Include="source\547.cpp" />
     <ClCompile Include="source\55_84.cpp" />
     <ClCompile Include="source\684.cpp" />
+    <ClCompile Include="source\704.cpp" />
     <ClCompile Include="source\84_12.cpp" />
   </ItemGroup>
   <ItemGroup>
