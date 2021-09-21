@@ -20,6 +20,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\135_71.cpp" />
+    <ClCompile Include="source\189.cpp" />
+    <ClCompile Include="source\26.cpp" />
     <ClCompile Include="source\278.cpp" />
     <ClCompile Include="source\310\310_v1.cpp" />
     <ClCompile Include="source\310\310_v2.cpp" />
@@ -41,6 +43,7 @@
     <ClCompile Include="source\684.cpp" />
     <ClCompile Include="source\704.cpp" />
     <ClCompile Include="source\84_12.cpp" />
+    <ClCompile Include="source\977.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\310\310.h" />
@@ -67,7 +70,7 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
