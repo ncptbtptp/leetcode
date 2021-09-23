@@ -29,6 +29,7 @@
     <ClCompile Include="source\310\310_v1.cpp" />
     <ClCompile Include="source\310\310_v2.cpp" />
     <ClCompile Include="source\332_67.cpp" />
+    <ClCompile Include="source\344.cpp" />
     <ClCompile Include="source\35.cpp" />
     <ClCompile Include="source\380_94.cpp" />
     <ClCompile Include="source\395_44.cpp" />
