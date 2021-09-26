@@ -40,9 +40,3 @@ public:
         return maxLen;
     }
 };
-
-int main()
-{
-    vector<int> chars(128, -1);
-    cout << chars[0] << endl << chars[1] << endl;
-}
