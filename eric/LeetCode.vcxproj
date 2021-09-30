@@ -19,14 +19,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="source\101.cpp" />
+    <ClCompile Include="source\111.cpp" />
     <ClCompile Include="source\116.cpp" />
     <ClCompile Include="source\135_71.cpp" />
     <ClCompile Include="source\167.cpp" />
     <ClCompile Include="source\189.cpp" />
     <ClCompile Include="source\19.cpp" />
+    <ClCompile Include="source\206.cpp" />
+    <ClCompile Include="source\21.cpp" />
     <ClCompile Include="source\26.cpp" />
     <ClCompile Include="source\278.cpp" />
     <ClCompile Include="source\283.cpp" />
+    <ClCompile Include="source\3.cpp" />
     <ClCompile Include="source\310\310_v1.cpp" />
     <ClCompile Include="source\310\310_v2.cpp" />
     <ClCompile Include="source\332_67.cpp" />
@@ -43,15 +48,22 @@
     <ClCompile Include="source\416.cpp" />
     <ClCompile Include="source\417.cpp" />
     <ClCompile Include="source\45_58.cpp" />
+    <ClCompile Include="source\53.cpp" />
+    <ClCompile Include="source\542.cpp" />
     <ClCompile Include="source\543.cpp" />
     <ClCompile Include="source\547.cpp" />
     <ClCompile Include="source\557.cpp" />
     <ClCompile Include="source\55_84.cpp" />
+    <ClCompile Include="source\567.cpp" />
+    <ClCompile Include="source\617.cpp" />
     <ClCompile Include="source\684.cpp" />
+    <ClCompile Include="source\695.cpp" />
     <ClCompile Include="source\704.cpp" />
+    <ClCompile Include="source\733.cpp" />
     <ClCompile Include="source\84_12.cpp" />
     <ClCompile Include="source\876.cpp" />
     <ClCompile Include="source\977.cpp" />
+    <ClCompile Include="source\994.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\310\310.h" />
