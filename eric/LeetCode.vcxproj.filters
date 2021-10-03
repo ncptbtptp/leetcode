@@ -153,6 +153,15 @@
     <ClCompile Include="source\206.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="source\77.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\46.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\784.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\310\310.h">

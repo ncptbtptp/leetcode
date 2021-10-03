@@ -48,6 +48,7 @@
     <ClCompile Include="source\416.cpp" />
     <ClCompile Include="source\417.cpp" />
     <ClCompile Include="source\45_58.cpp" />
+    <ClCompile Include="source\46.cpp" />
     <ClCompile Include="source\53.cpp" />
     <ClCompile Include="source\542.cpp" />
     <ClCompile Include="source\543.cpp" />
@@ -60,6 +61,8 @@
     <ClCompile Include="source\695.cpp" />
     <ClCompile Include="source\704.cpp" />
     <ClCompile Include="source\733.cpp" />
+    <ClCompile Include="source\77.cpp" />
+    <ClCompile Include="source\784.cpp" />
     <ClCompile Include="source\84_12.cpp" />
     <ClCompile Include="source\876.cpp" />
     <ClCompile Include="source\977.cpp" />
