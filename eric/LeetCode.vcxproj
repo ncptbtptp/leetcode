@@ -21,11 +21,13 @@
   <ItemGroup>
     <ClCompile Include="source\101.cpp" />
     <ClCompile Include="source\111.cpp" />
+    <ClCompile Include="source\1137.cpp" />
     <ClCompile Include="source\116.cpp" />
     <ClCompile Include="source\135_71.cpp" />
     <ClCompile Include="source\167.cpp" />
     <ClCompile Include="source\189.cpp" />
     <ClCompile Include="source\19.cpp" />
+    <ClCompile Include="source\198.cpp" />
     <ClCompile Include="source\206.cpp" />
     <ClCompile Include="source\21.cpp" />
     <ClCompile Include="source\26.cpp" />
@@ -50,6 +52,7 @@
     <ClCompile Include="source\45_58.cpp" />
     <ClCompile Include="source\46.cpp" />
     <ClCompile Include="source\494.cpp" />
+    <ClCompile Include="source\509.cpp" />
     <ClCompile Include="source\526.cpp" />
     <ClCompile Include="source\53.cpp" />
     <ClCompile Include="source\542.cpp" />
@@ -61,6 +64,7 @@
     <ClCompile Include="source\617.cpp" />
     <ClCompile Include="source\684.cpp" />
     <ClCompile Include="source\695.cpp" />
+    <ClCompile Include="source\70.cpp" />
     <ClCompile Include="source\704.cpp" />
     <ClCompile Include="source\733.cpp" />
     <ClCompile Include="source\77.cpp" />
