@@ -49,6 +49,8 @@
     <ClCompile Include="source\417.cpp" />
     <ClCompile Include="source\45_58.cpp" />
     <ClCompile Include="source\46.cpp" />
+    <ClCompile Include="source\494.cpp" />
+    <ClCompile Include="source\526.cpp" />
     <ClCompile Include="source\53.cpp" />
     <ClCompile Include="source\542.cpp" />
     <ClCompile Include="source\543.cpp" />
