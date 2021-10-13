@@ -21,7 +21,7 @@
     <ClCompile Include="source\45_58.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\55_84.cpp">
+    <ClCompile Include="source\55.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="source\84_12.cpp">
