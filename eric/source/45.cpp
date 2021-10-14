@@ -42,6 +42,25 @@ public:
 };
 */
 
+/* one-loop greedy, still O(n), thus simpler but harder to understand */
+/*
+class Solution {
+public:
+    int jump(vector<int>& nums) {
+        int jumps = 0, currentJumpEnd = 0, farthest = 0;
+        
+        for (int i = 0; i < nums.size() - 1; ++i) {
+            farthest = std::max(farthest, i + nums[i]);
+            if (i == currentJumpEnd) {
+                ++jumps;
+                currentJumpEnd = farthest;
+            }
+        }
+        return jumps;
+    }
+};
+*/
+
 class Solution {
 public:
     int jump(vector<int>& nums)
@@ -79,11 +98,3 @@ public:
     }
 };
 
-//int main()
-//{
-//    Solution so;
-//    vector<int> v{2, 3, 1, 1, 4};
-//    cout << so.jump(v) << endl;
-//
-//    return 0;
-//}
