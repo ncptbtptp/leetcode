@@ -9,13 +9,38 @@
  *
  * Time: O(n)
  * Space: O(1)
- * Beat: 57.62%
  **********************************************************************************/
 
 #include <iostream>
 #include <vector>
 //#include <cassert>
 using namespace std;
+
+/*
+* bottom-up DP. Time: O(n^2), Space: O(n)
+class Solution {
+public:
+    int jump(vector<int>& nums) {
+        if (nums.size() == 1) return 0;
+        if (nums.size() == 2) return 1;
+        
+        // INT_MAX: cannot reach the last index; 0: last index; otherwise: steps to reach the last index
+        vector<int> jumps(nums.size(), INT_MAX);
+        jumps.back() = 0;
+        
+        for (int i = nums.size() - 2; i >= 0; --i) {
+            int min_jump = INT_MAX;
+            for (int j = 1; j <= nums[i] && (i + j < nums.size()); ++j) {
+                // check if nums[i+j] can reach the last index and if yes, how many jumps it needs
+                min_jump = std::min(min_jump, jumps[i + j]);
+            }
+            jumps[i] = (min_jump == INT_MAX) ? INT_MAX : min_jump + 1;
+        }
+        
+        return jumps[0];
+    }
+};
+*/
 
 class Solution {
 public:
