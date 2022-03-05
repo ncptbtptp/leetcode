@@ -3,10 +3,8 @@
 #include <iostream>
 using namespace std;
 
-
 int main()
 {
-    
-    //PrintVector(nums);
+    //PrintVector(res);
     return 0;
 }

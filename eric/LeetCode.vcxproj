@@ -67,6 +67,7 @@
     <ClCompile Include="source\70.cpp" />
     <ClCompile Include="source\704.cpp" />
     <ClCompile Include="source\733.cpp" />
+    <ClCompile Include="source\739.cpp" />
     <ClCompile Include="source\746.cpp" />
     <ClCompile Include="source\75.cpp" />
     <ClCompile Include="source\77.cpp" />

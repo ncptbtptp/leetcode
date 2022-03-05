@@ -195,6 +195,9 @@
     <ClCompile Include="source\75.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="source\739.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\310\310.h">
