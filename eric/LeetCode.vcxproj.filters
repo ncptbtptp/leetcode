@@ -16,6 +16,12 @@
     <Filter Include="Source Files\310">
       <UniqueIdentifier>{bbf0d112-2a4c-49ab-9e77-4435136017f5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{07514601-ec95-4e35-bc31-6ea197a31961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{5fe689b3-5906-4775-bcc5-e6ab54bbd394}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\45.cpp">
@@ -183,10 +189,19 @@
     <ClCompile Include="source\746.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="source\75.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\310\310.h">
       <Filter>Source Files\310</Filter>
+    </ClInclude>
+    <ClInclude Include="source\utility.h">
+      <Filter>Source Files\Common</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

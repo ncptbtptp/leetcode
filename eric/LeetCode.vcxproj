@@ -68,15 +68,18 @@
     <ClCompile Include="source\704.cpp" />
     <ClCompile Include="source\733.cpp" />
     <ClCompile Include="source\746.cpp" />
+    <ClCompile Include="source\75.cpp" />
     <ClCompile Include="source\77.cpp" />
     <ClCompile Include="source\784.cpp" />
     <ClCompile Include="source\84_12.cpp" />
     <ClCompile Include="source\876.cpp" />
     <ClCompile Include="source\977.cpp" />
     <ClCompile Include="source\994.cpp" />
+    <ClCompile Include="source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\310\310.h" />
+    <ClInclude Include="source\utility.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
